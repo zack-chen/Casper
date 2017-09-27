@@ -1907,3 +1907,29 @@ Usage (In Ghost editor):
         margin-left: 0;
     }
 }
+
+/* add by chenzq */
+.back-to-top {
+    background:#d9d9d9;
+    color:#000;
+    position:fixed;
+    bottom:0;
+    right:1.5625rem;
+    width:3.125rem;
+    height:2.5rem;
+    line-height:2.5rem;
+    text-align:center;
+    cursor:pointer;
+    -webkit-transition:all .4s;
+    transition:all .4s;
+    border-radius:0.1875rem 0.1875rem 0 0;
+    z-index:99999;
+    -webkit-transform:translateZ(0);
+    transform:translateZ(0)
+}
+.back-to-top.hidden {
+    bottom:-2.5rem
+}
+.back-to-top:hover {
+    background:#bfbfbf
+}
